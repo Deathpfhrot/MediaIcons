@@ -32,3 +32,9 @@ nav i:nth-of-type(5){
     color: #25D366;
     font-size: 2rem;
 }
+
+nav .fa-whatsapp{
+    color: orange;
+    font-size: 2rem;
+    /* nur eine klasse ansprechen*/
+}
