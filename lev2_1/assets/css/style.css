@@ -38,3 +38,7 @@ nav .fa-whatsapp{
     font-size: 2rem;
     /* nur eine klasse ansprechen*/
 }
+
+nav .fa-whatsapp:hover{
+    transform: scale(2);
+}

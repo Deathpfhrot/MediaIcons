@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/*
+
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b*/
+/*--------------------Global-----------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*-----------------------Header-------------------*/
+header{
+    height: 100vh;
+}
+
+header nav{
+    text-align: right;
+    padding-top: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+header section{
+    background: url(../img/Lev3_3_Project_css-einführung_Illustration/illustration1.gif) no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 95vh;
+
+}
+header section article:nth-of-type(1){
+    display: inline-block;
+    width: 43%;
+    height: 80%;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+header section button{
+    padding: 1rem;
+    background-color: transparent;
+    box-shadow: 2px 2px 1px gray;
+    border-radius: 5px;
+    margin: 10px 5px 0 0;
+}
+
+header section article button:nth-of-type(1){
+    background-color: black;
+    color: white;
+}
+
+header section article button:nth-of-type(1) a {
+    color: white;
+}
+
+header section article button:nth-of-type(2) a{
+    color: black;
+}
+
+
+/*----------------------Main-------------------*/
+
+/*---------Main1--------*/
+main{
+    margin: 10%;
+}
+
+main section:nth-of-type(1){
+    margin-bottom: 20%;
+}
+main section:nth-of-type(2){
+    margin-bottom: 20%;
+}
+main section:nth-of-type(3){
+    margin-bottom: 20%;
+}
+
+main section:nth-of-type(4){
+    margin-bottom: 20%;
+}
+
+main section:nth-of-type(6){
+    margin-bottom: 10%;
+}
+
+main section:nth-of-type(1){
+   background: url(../img/Lev3_3_Project_css-einführung_Illustration/illustration2.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left;
+   height: 80vh;
+}
+
+main section:nth-of-type(1) article{
+    display: inline-block;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+
+main section:nth-of-type(2){
+    background: url(../img/Lev3_3_Project_css-einführung_Illustration/illustration3.png) no-repeat right/contain;
+    height: 60vh;
+}
+
+main section:nth-of-type(2) article{
+    width: 35%;
+    padding-top: 10%;
+}
+
+/*------Main2-------*/  
+
+main section:nth-of-type(3){
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+}
+main section:nth-of-type(4) article{
+    text-align: center;
+}
+main section:nth-of-type(4) article img{
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+    margin-right: 5%;
+} /* this is important css to handle picture next to each other*/
+
+main section:nth-of-type(4) article img:hover{
+    border: 2px solid rgb(185, 180, 180, 0.4);
+}
+
+/*------Main3------*/
+
+main section:nth-of-type(5){
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+}
+
+main section:nth-of-type(6) article{
+    text-align: center;
+}
+
+main section:nth-of-type(6) article img{
+    display: inline-block;
+    width: 39%;
+    height: 39%;
+    margin: 4%;
+}
+
+main section:nth-of-type(6) article img:hover{
+    box-shadow: 1px 1px 3px gray;
+}
+
+/*-----main4-----*/
+
+main section:nth-of-type(7){
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+main section:nth-of-type(8){
+    width: 20%;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1px solid rgb(211, 207, 207);
+    text-align: center;
+    background-color: rgb(198, 236, 252);
+    border-radius: 5px;
+
+}
+main section:nth-of-type(8) p:nth-of-type(1){
+    font-size: 40px;
+    padding: 3rem 0;
+}
+
+main section:nth-of-type(8) p:nth-of-type(2){
+    color:gray;
+}
+main section:nth-of-type(8) ul{
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+main section:nth-of-type(8) button{
+    padding: 10px 40px;
+    margin: 1.5rem 0;
+    background-color: rgb(32, 151, 219);
+    color: white;
+    border-radius: 5px;
+    border: 0px solid white
+}
+
+footer{
+    text-align: center;
+}
+
+footer p:nth-of-type(1){
+    font-size: 1rem;
+    color: gray;
+}
+
+footer p:nth-of-type(3){
+    font-size: 1rem;
+    color: gray;
+}
+
+footer i{
+    font-size: 35px;
+    padding: 10px;
+}
+
+footer i:nth-of-type(1){
+    color: #3b5998;
+}
+footer i:nth-of-type(2){
+    color: #fcaf45;
+}
+footer i:nth-of-type(3){
+    color: #55acee;
+}
+footer i:nth-of-type(4){
+    color: #c4302b;
+}
